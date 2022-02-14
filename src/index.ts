@@ -16,7 +16,7 @@ app.use(async (ctx, next) => {
     ctx.respond = false;
     await k2c(
       createProxyMiddleware({
-        target: '', //# 后端的接口地址；
+        target: '', //# 后端的接口地址
         changeOrigin: true,
         secure: false
       })
