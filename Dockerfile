@@ -1,6 +1,6 @@
 # node 镜像
 # apline 版本的node会小很多
-FROM node:12-alpine
+FROM node:14-alpine
 
 # 在容器中创建目录0.
 RUN mkdir -p /usr/src/app
